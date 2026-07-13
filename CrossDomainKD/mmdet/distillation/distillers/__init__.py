@@ -1,0 +1,24 @@
+from .detection_distillation_faster_rcnn import DetectionDistiller_FR
+from .detection_distillation_cm import DetectionDistiller_CM
+from .detection_distillation_reppoints import DetectionDistiller_Rep
+from .detection_distillation_retinanet import DetectionDistiller_Retina
+from .detection_distillation_fcos import DetectionDistiller_FCOS
+from .detection_distillation_gfl import DetectionDistiller_GFL
+from .detection_distillation_retinanet_fbg import DetectionDistiller_Retina_FBG
+from .detection_distillation_retinanet_glb_fbg import DetectionDistiller_Retina_GLB_FBG
+from .detection_distillation_retinanet_log import DetectionDistiller_Retina_LOG
+from .detection_distillation_retinanet_gfl import DetectionDistiller_Retina_GFL
+from .detection_distillation_retinanet_glb_fbg_log import DetectionDistiller_Retina_GLB_FBG_LOG
+from .detection_distillation_retinanet_fbg_log import DetectionDistiller_Retina_FBG_LOG
+from .detection_distillation_retinanet_gf_log import DetectionDistiller_Retina_GF_LOG
+from .detection_distillation_yolo import DetectionDistiller_Yolo
+from .detection_distillation_fcos_cross import DetectionDistiller_FCOS_Cross
+from .detection_distillation_gfl_cross import DetectionDistiller_GFL_Cross
+
+__all__ = [
+    'DetectionDistiller_FR', 'DetectionDistiller_CM', 'DetectionDistiller_Rep',
+    'DetectionDistiller_Retina', 'DetectionDistiller_FCOS', 'DetectionDistiller_GFL',
+    'DetectionDistiller_Retina_FBG', 'DetectionDistiller_Retina_GLB_FBG', 'DetectionDistiller_Retina_LOG',
+    'DetectionDistiller_Retina_GFL', 'DetectionDistiller_Retina_GLB_FBG_LOG', 'DetectionDistiller_Retina_FBG_LOG',
+    'DetectionDistiller_Retina_GF_LOG', 'DetectionDistiller_Yolo', 'DetectionDistiller_FCOS_Cross', 'DetectionDistiller_GFL_Cross'
+]
