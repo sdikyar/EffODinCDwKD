@@ -1,4 +1,10 @@
 # EffODinCDwKD
+<p align="center">
+  <a href="https://www.mdpi.com/2313-433X/12/7/325">
+    <img src="banner.png" alt="Journal of Imaging Banner: Efficient Object Detection in Compressed Domain" width="800">
+  </a>
+</p>
+
 **Official repository for the paper: ["Efficient Object Detection in Compressed Domain by Exploiting Knowledge Distillation from Pixel Domain"](https://www.mdpi.com/2313-433X/12/7/325)**
 
 This repository provides the official implementation of a novel dual-phase framework designed to achieve fast and efficient object detection directly within partially decoded compressed-domain video data. 
