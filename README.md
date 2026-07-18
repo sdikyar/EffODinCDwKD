@@ -1,10 +1,10 @@
 # EffODinCDwKD
 Efficient Object Detection in Compressed Domain by Exploiting Knowledge Distillation from Pixel Domain
 
-## Acknowledgments
+### Acknowledgments
 This repository is build upon [HM-18.0](https://vcgit.hhi.fraunhofer.de/jvet/HM) and [DetKDS](https://github.com/lliai/DetKDS).
 
-## Citation
+### Citation
 If you find this repository or our paper useful for your research, please consider citing:
 
 ```bibtex
